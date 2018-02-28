@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head">
+	<title><?php 
+    //echo $page_title;
+    if (empty($page_title)) {
+        $page_title = ":: Haz ECCO ::";
+    }
+    echo $page_title;
+    ?></title>	
+	<link rel="stylesheet" href="comunes/estilo.css" type="text/css" media="screen" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+	<div id="header">
+		<h1>
+		<a href="index.php">
+			<img src="comunes/ecco.gif" width="49.65" height="40.2" border="0" alt="Haz ECCO">				
+			Haz ECCO</a></h1>
+		<h2><a href="index.php">
+			Sistema de registro</a></h2>
+	</div>
+	<div id="navigation">
+		<ul>
+			<li><a href="registro_carnet.php">Registro de carnets</a></li>			
+			<li><a href="asistencia_carnet.php">Asistencia (carnets)</a></li>
+			<li><a href="registro_boleto.php">Registro de boletos</a></li>
+			<li><a href="asistencia_boleto.php">Asistencia (boletos)</a></li>
+			<li><a href="lista_carnet.php">Listado (carnets)</a></li>
+		</ul>
+	</div>
+	<div id="content"><!-- Start of the page-specific content. -->
+<!-- Script 11.7 - header.html -->
